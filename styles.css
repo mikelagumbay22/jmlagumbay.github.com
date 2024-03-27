@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  color: white;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  z-index: -1;
+}
+
+.spacer {
+  padding: 30px 0;
+  margin-top: 30px;
+}
+
+
+
+/** Navigation **/
+
+.outer {
+  border: 1px solid #888;
+  width: 100%;
+  background-color: #313131;
+  position: fixed;
+  z-index: 20;
+}
+
+.containerNav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  border: 4px solid #888;
+  justify-content: space-between;
+  width: auto;
+  margin: 10px;
+  border-radius: 15px;
+  height: auto;
+}
+
+.navMenu {
+  display: flex;
+  align-items: center;
+  background: #000000;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  border-radius: 15px;
+  flex-wrap: wrap;
+}
+
+.navMenuitem {
+  color: white;
+  /** border:  1px solid #888; **/
+  padding: 5px;
+}
+
+.navSeparators {
+  color: white;
+}
+
+/** Section **/
+
+.containerJM {
+  height: 1000px;
+  width: 100%;
+
+}
+
+.containerSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100dvh;
+}
+
+.jmllogo {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-top: 20px;
+  margin-top: 100px;
+}
+
+.containerSection h1 {
+  margin-top: 20px;
+  color: white;
+  font-size: 3rem;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  text-align: center;
+}
+
+.containerSection h2 {
+  margin-top: 20px;
+  color: white;
+  font-size: 2rem;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 200;
+  text-align: center;
+}
+
+/** Footer **/
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  position: fixed;
+  background-color: #000000;
+  z-index: 20;
+}
+
+.containerNav2 {
+  display: flex;
+  height: 50px;
+  border: 4px solid #888;
+  justify-content: center;
+  width: auto;
+  margin: 10px;
+  border-radius: 15px;
+  background: #2c2c2c;
+  z-index: 4;
+}
+
+.footerMenu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: auto;
+
+  justify-content: center;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.social{
+  height: 90%;
+  width: 90%;
+}
+
+a {
+  color: white;
+  width: 10px;
+}
+
+.footerMenuitem {
+  color: white;
+  padding: 5px;
+}
+
+/** About Me **/
+
+.container-about {
+  padding: 20px;
+  width: auto;
+  /**height: 100dvh; **/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 30px;
+}
+
+.aboutme {
+  position: relative;
+  color: white;
+}
+.about-name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  width: auto;
+}
+
+.about-img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.about-details {
+  text-indent: 50px;
+  margin: 20px 0px;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+
+.about-skills {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  width: auto;
+  text-decoration: overline;
+}
+
+.about-h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  text-align: center;
+  width: auto;
+  padding: 10px;
+}
+
+.about-ops,
+.about-it {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.about-span {
+  background-color: #c4bebe;
+  padding: 0% 10px;
+  margin: 5px;
+  color: #000000;
+}
+
+.about-spanicon {
+  background-color: #343333;
+  padding: 0% 10px;
+  margin: 5px;
+  color: #000000;
+  width: 70px;
+  z-index: 4;
+}
+
+.about-spanicon img {
+  width: 100%;
+}
+
+.about-resume-box {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-resume{
+  padding: 10px;
+  text-decoration: none;
+  border: 4px solid #888;
+  border-radius: 10px;
+  margin-top: 10px;
+  height: 20%;
+}
+
+
+
+.about-resume-details{
+  padding: 10px;
+}
+
+/** EXPERIENCE **/
+.container-experience {
+  width: auto;
+  padding: 5px 0;
+}
+
+
+.experience-box {
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  width: auto;
+  text-decoration: overline;
+  padding-bottom: 20px;
+}
+
+
+.experience-grid {
+  display: grid;
+  width: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, auto);
+  gap: 5px;
+}
+
+.experience-img {
+  max-width: 90%;
+}
+
+/** PROJECTS **/
+.container-projects {
+  padding-bottom: 100px; /** to view bottom details **/
+  margin-top: 20px;
+}
+
+.projects-box {
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  width: auto;
+  text-decoration: overline;
+  padding-bottom: 20px;
+}
+
+.projects-grid {
+  display: grid;
+  width: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, auto);
+  gap: 5px;
+}
+
+.projects-img {
+  max-width: 90%;
+}
+
+/** screen more than 700px **/
+
+@media (width > 700px) {
+  .experience-grid {
+    display: grid;
+    width: auto;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+  }
+
+  .projects-grid {
+    display: grid;
+    width: auto;
+    grid-template-columns: repeat(4, auto);
+    height: auto;
+  }
+}
+
+
+
+
+@media (width < 900px) and (height < 500){ 
+  .containerJM {
+    height: 1000px;
+    width: 100%;
+  
+  }
+}   
